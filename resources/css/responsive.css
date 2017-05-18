@@ -1,0 +1,922 @@
+@media screen and (max-width: 1199px) {
+	#confirmBox {
+		font-size: 19px;
+		padding: 20px;
+		text-align: center;
+	}
+	#cancel-button-confirmbox {
+		margin-top: -5px;
+	}
+	#configuration-inner-wrapper .form-control-div {
+	    width: 70%;
+	}
+	#configuration-right {
+    	padding: 0px 10px;
+	}
+	.form-text-right-align .configuration-top-settings .control-label{
+		width: 60%;
+	}
+	.form-text-right-align .configuration-top-settings .form-control-div{
+		width: 30% !important;
+    	float: right;
+	}
+	#page-title-sub {
+    	width: 46%;
+    	float: left;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.dynamic-blocks-global-functionality  .emergency-contacts-add-more-text{
+	    font-size: 15px;
+	}
+	.dynamic-blocks-global-functionality  #emergency-contacts-add-more{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 1077px) {
+	#configuration-inner-wrapper .form-control-div {
+	    width: 75%;
+	}
+	#configuration-inner-wrapper .form-control-div input, #configuration-inner-wrapper .form-control-div input,
+	.config-deviceSecurity-form-div .form-control-div .cfgMgntCertificates {
+    	max-width: 250px;
+	}
+	.cfgMgntWifiProfiles {
+    	width: auto;
+    	max-width: 300px;
+	}
+	body.nav-md #configuration-inner-wrapper .form-control-div input, body.nav-md #configuration-inner-wrapper .form-control-div input,
+	body.nav-md .config-deviceSecurity-form-div .form-control-div .cfgMgntCertificates {
+    	max-width: 150px;
+	}
+	.selected-config-data-display {
+		position: relative;
+	}
+	.enterprise-or-group-icons{
+		display: block !important;
+    	float: none !important;
+    	margin-bottom: 20px;
+    	clear: both;
+	}
+	.configuration-submit-button-sub2{
+    	float: none;
+    	display: block !important;
+    	clear: both;
+	}
+}
+@media screen and (max-width: 991px) {
+	.nav-md #toast-container {
+		width: 100%;
+		left: 0px;
+	}
+	.dynamic-blocks-global-functionality .add-more-contacts {
+   		text-align: left !important;
+   	 	padding-left: 0px;
+	}
+	#page-title-sub {
+    	width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	div.DTTT_container {
+		float: none !important;
+		text-align: center;
+	}
+	div.DTTT_container:after {
+		visibility: hidden;
+		display: block;
+		content: "";
+		clear: both;
+		height: 0;
+	}
+}
+
+@media ( max-width :1076px) {
+	.x_content {
+		width: 100%;
+	}
+}
+
+@media ( max-width :1060px) {
+	form .has-error div.col-xs-12 {
+		margin-bottom: 10px;
+	}
+}
+
+@media ( max-width :1200px) {
+	#account-form-1 .item .alert {
+		max-width: 445px;
+	}
+	.grid-topSearchBar .col-lg-4 {
+		width: 40%;
+	}
+	.grid-topSearchBar .col-lg-8 {
+		width: 60%;
+	}
+}
+
+@media ( max-width : 1200px) {
+	.x_title h2 {
+		width: 62%;
+		font-size: 17px;
+	}
+}
+
+@media ( max-width : 1270px) and (min-width: 192px) {
+	.x_title h2 small {
+		display: none
+	}
+}
+
+@media ( max-width :995px) {
+	.form-control {
+		max-width: 350px;
+	}
+	.form-text-right-align .control-label {
+    	text-align: left !important;
+    	padding: 0px;
+    	margin-bottom: 5px;
+    	width: 100%;
+	}
+	#configuration-inner-wrapper .form-control-div {
+    	width: 100%;
+	}
+	.server-url-config{
+		max-width: 280px;
+	}
+	#configuration-inner-wrapper .form-control-div input, 
+	#configuration-inner-wrapper .form-control-div input, .config-deviceSecurity-form-div .form-control-div .cfgMgntCertificates,
+	.config-deviceSecurity-form-div select, .config-ppt-form-div select,body.nav-md #configuration-inner-wrapper .form-control-div input, body.nav-md #configuration-inner-wrapper .form-control-div input,
+	body.nav-md .config-deviceSecurity-form-div .form-control-div .cfgMgntCertificates
+	 {
+    	max-width: 300px;
+    	width: 100%;
+	}
+	
+	body.nav-md .server-url-config{
+		max-width: 200px;
+	}
+	#deviceHeartBeatInterval {
+		width: 100%
+	}
+	body.nav-sm #deviceHeartBeatInterval {
+    	max-width: 399px !important;
+	}
+	body.nav-md #deviceHeartBeatInterval {
+    	max-width: 227px !important;
+	}
+}
+@media ( max-width :870px) {
+	.dynamic-blocks-global-functionality {
+   		max-width: 225px;
+	}
+	#configuration-inner-wrapper .form-control-div input, 
+	#configuration-inner-wrapper .form-control-div input, .config-deviceSecurity-form-div .form-control-div .cfgMgntCertificates,
+	.config-deviceSecurity-form-div select, .config-ppt-form-div select,body.nav-md #configuration-inner-wrapper .form-control-div input, body.nav-md #configuration-inner-wrapper .form-control-div input,
+	body.nav-md .config-deviceSecurity-form-div .form-control-div .cfgMgntCertificates
+	 {
+    	max-width: 225px;
+    	width: 100%;
+	}
+	
+	body.nav-md .server-url-config{
+		max-width: 166px;
+	}
+	#deviceHeartBeatInterval {
+		width: 100%
+	}
+	body.nav-sm #deviceHeartBeatInterval {
+    	max-width: 399px !important;
+	}
+	body.nav-md #deviceHeartBeatInterval {
+    	max-width: 227px !important;
+	}
+	.select-config-manager-uri {
+    	min-width: 50px;
+    	padding: 6px 5px;
+	}
+}
+
+@media ( max-width :800px) {
+	.ui-grid-pager-control input {
+		padding: 6px 6px !important;
+		margin-left: 8px;
+		max-width: 50px;
+	}
+	.x_panel {
+		position: relative;
+		width: 99%;
+	}
+	.ui-grid-pager-row-count-picker .ui-grid-pager-row-count-label {
+		display: none;
+	}
+	.ui-grid-pager-control {
+		margin-left: 0px;
+	}
+	body.nav-sm #topSubPageMenu li {
+  		min-width: 45px;
+    	margin-right: 8px;
+	}
+}
+
+@media ( min-width :830px) {
+	.selected-config-data-display {
+    	position: absolute;
+	}
+	body.nav-sm .navbar.nav_title {
+		width: 70px;
+		height: auto;
+	}
+	body.nav-sm .navbar.nav_title a span {
+		display: none;
+	}
+	body.nav-sm .navbar.nav_title a i {
+		font-size: 27px;
+		margin: 13px 0 0 3px;
+	}
+	.site_title i {
+		border: 1px solid #EAEAEA;
+		padding: 5px 6px;
+		border-radius: 50%;
+	}
+	body.nav-sm .main_container .top_nav {
+		padding: 0 !important;
+		display: block;
+		margin-left: 70px;
+		z-index: 2;
+	}
+	body.nav-sm .nav.side-menu li a {
+		text-align: center !important;
+		font-weight: 400;
+		font-size: 10px;
+		padding: 10px 5px;
+	}
+	.nav.side-menu li a {
+		cursor: pointer;
+	}
+	body.nav-sm .nav.side-menu li.active-sm {
+		border-right: 5px solid #1ABB9C;
+	}
+	body.nav-sm>.nav.side-menu>li.active-sm>a {
+		color: #1ABB9C !important;
+	}
+	body.nav-sm .nav.side-menu li a i.toggle-up {
+		display: none !important;
+	}
+	body.nav-sm .nav.side-menu li a i {
+		font-size: 25px !important;
+		text-align: center;
+		width: 100% !important;
+		margin-bottom: 5px;
+	}
+	body.nav-sm ul.nav.child_menu {
+		left: 100%;
+		position: absolute;
+		top: 0;
+		width: 210px;
+		z-index: 4000;
+		background: #e9e9e9;
+		display: none;
+		border-left: 5px solid #00aeed;
+		background-color: #ededed;
+		border-bottom: 1px solid #d9d9d9;
+		-moz-box-shadow: 3px 3px 5px 6px #d6d6d6;
+		box-shadow: inset 0 0 10px #d6d6d6;
+		min-height: 64px;
+	}
+	body.nav-md li.active ul.in {
+		display: block;
+	}
+	body.nav-sm ul.nav.child_menu li {
+		padding-left: 0;
+	}
+	body.nav-sm ul.nav.child_menu li a {
+		text-align: left !important;
+		padding-left: 25px;
+		font-size: 12px;
+	}
+	body.nav-sm .profile {
+		display: none;
+	}
+	body.nav-sm  #leftPanel-topSection-main .pull-left, body.nav-sm  #leftPanel-topSection-main .pull-right
+		{
+		margin-left: auto;
+		margin-right: auto;
+		float: none !important;
+		text-align: center !important;
+	}
+	body.nav-sm .logo_mini img, body.nav-sm #leftPanel-topSection-main .site_title
+		{
+		margin-left: 0px;
+		padding: 0px;
+	}
+	.nav-sm .nav.side-menu>li.active>a, .nav-sm .nav.side-menu>li:hover>a {
+		background: none !important;
+		background-color: none !important;
+		box-shadow: none !important;
+	}
+	.nav-sm .nav.side-menu .left_col {
+		overflow: visible;
+	}
+	body.nav-sm #sidebar-menu .active>ul[hiddensmall=false] {
+		height: auto !important;
+		display: block;
+	}
+	body.nav-sm .menu_section {
+		margin: 0;
+	}
+	body.nav-sm #sidebar-menu span.fa, body.nav-sm #sidebar-menu  .menu_section h3
+		{
+		display: none !important;
+	}
+	
+}
+
+@media ( max-width :830px) {
+	.feature-div span {
+		border: 1px solid rgba(41, 41, 41, 0.17);
+		margin: 5px;
+		padding: 5px;
+		border-radius: 20%;
+		background-color: #ffffff;
+	}
+	body.nav-md .container.body .right_col, body.nav-md .container.body .top_nav
+		{
+		width: 100%;
+		margin: 0;
+	}
+	body.nav-md .container.body .col-md-3.left_col {
+		display: none;
+	}
+	body.nav-md .container.body .right_col {
+		width: 100%;
+		padding-right: 0
+	}
+	.right_col {
+		padding: 0px !important;
+	}
+	.form-text-right-align .control-label {
+		text-align: left !important;
+	}
+	body.nav-sm .logo_lg {
+		display: block !important;
+	}
+	body.nav-sm .logo_mini {
+		display: none !important;
+	}
+	.select2-container {
+		max-width: 100%;
+	}
+	#gray-top-menuBar {
+		min-height: 45px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.profile_info span:hover, .profile_info span a:hover {
+		color: #00aeed !important;
+	}
+	.toggle a {
+		color: #2A3F54;
+	}
+	.form-control {
+		max-width: 100%;
+	}
+	.form-horizontal .control-label {
+		padding: 0px;
+	}
+	.form-control-div {
+		margin-left: 0px;
+	}
+	#account-form-submit-label {
+		margin-right: 10px;
+	}
+	.x_panel {
+		padding: 0px 0px 20px 0px;
+	}
+	.submit-button-main-div {
+		margin-left: 0px;
+	}
+	.hide-on-desktop {
+		display: block;
+	}
+	.hide-on-mobile {
+		display: none;
+	}
+	#myaccount-navbar-main {
+		margin: 0;
+		float: none;
+		margin: 0px auto;
+		text-align: center;
+		height: auto;
+		overflow: hidden;
+	}
+	#myaccount-navbar-main li {
+		float: none;
+	}
+	#x-panel-main {
+		margin-top: 0px;
+	}
+	#page-title-main1 #page-title-head {
+		margin: 15px 0px;
+	}
+	#page-title-main1 {
+		padding: 0px 25px;
+		padding-bottom: 0px;
+		margin-bottom: 30px;
+		min-height: 45px;
+	}
+	body .container.body .left_col {
+		width: 240px !important;
+	}
+	body .container.body .left_col {
+		width: 240px !important;
+	}
+	body .navbar.nav_title {
+		width: 100% !important;
+	}
+	body.nav-sm .main_container .top_nav, body.nav-sm .container.body .right_col
+		{
+		margin-left: 240px;
+	}
+	.nav.side-menu>li, .nav.side-menu>li a {
+		cursor: pointer;
+	}
+	.nav_title {
+		height: auto;
+		min-height: 25px;
+	}
+	.icon-close-menu {
+    	width: 21px;
+    	cursor: pointer;
+    	margin-right: 0px;
+	}
+	#page-title-head {
+    	font-size: 22px;
+	}
+	.page-title .title_left {
+		width: 100%;
+	}
+	::-webkit-scrollbar {
+		-webkit-appearance: none;
+		width: 7px;
+	}
+	::-webkit-scrollbar-thumb {
+		border-radius: 4px;
+		background-color: rgba(0, 0, 0, .5);
+		-webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+	}
+	#account-number-info-label {
+		display: none;
+	}
+	body.nav-sm .toggle {
+		padding-top: 18px;
+	}
+	body.nav-sm .left_panel_link_name {
+		display: inline-block;
+	}
+	#configuration-left {
+		width: 100%;
+		display: block;
+	}
+	#configuration-right {
+		width: 100%;
+		display: block;
+		min-height: 200px;
+	}
+	.configuration-menu-heading {
+		display: block !important;
+		width: 100% !important;
+	}
+	.configurationSubPageMenu li {
+		display: inline-block;
+		width: 25%;
+		vertical-align: top;
+	}
+	body.nav-sm .configurationSubPageMenu li {
+		width: 32%;
+	}
+	.configurationSubPageMenu li.active, .configurationSubPageMenu li:hover
+		{
+		border-left: 5px solid #ededed;
+	}
+	.configurationSubPageMenu li a {
+		border-bottom: 2px solid #ededed;
+	}
+	.configurationSubPageMenu li.active a, .configurationSubPageMenu li:hover a
+		{
+		border-bottom: 2px solid #e65a2c;
+		text-decoration: none;
+	}
+	.server-url-config {
+		max-width: 60% !important;
+	}
+	.topMenu-right-panel-menu {
+		padding: 0px;
+		margin: 0px;
+	}
+	.topMenu-right-panel-menu ul li {
+		padding: 0px;
+		text-align: left;
+	}
+	.topMenu-right-panel-menu ul li a {
+		font-size: 13px;
+		line-height: 20px;
+		color: #BAB8B8;
+	}
+	.topMenu-right-panel-menu ul li a:hover {
+		color: #00aeed !important;
+	}
+	.version-accountKey-div {
+		left: 0px;
+	}
+	.version-accountKey-div::after {
+		right: 48%;
+	}
+	.configuration-menu-heading {
+    	margin-top: 0px;
+	}
+	.configurationSubPageMenu li:first-child {
+    	padding-top: 5px;
+    	padding-bottom: 10px;
+	}
+	.configurationSubPageMenu li{
+		padding-top: 3px;
+    	padding-bottom: 3px;
+	}
+	.configuration-menu-heading {
+    	margin-bottom: 10px;
+	}
+}
+
+@media ( max-width :767px) {
+	.top_nav .navbar-right {
+		margin: 0px;
+		width: 76%;
+	}
+	.advanceSearchModal select.input-sm {
+		max-width: 100px;
+		float: left;
+	}
+	.advanceSearchModal .form-control {
+		max-width: 200px;
+		float: left;
+	}
+	.form-control-div {
+		margin-left: 0px;
+	}
+	#account-form-submit-label {
+		display: none;
+	}
+}
+
+@media ( max-width :700px) {
+	#toast-container {
+		width: 100%;
+	}
+}
+
+@media ( max-width :675px) {
+	.ui-grid-pager-container {
+		float: left;
+		width: 80%;
+	}
+	.ui-grid-pager-count-container {
+		float: right;
+		min-width: 50px;
+		margin-top: 0px;
+		height: auto;
+		min-height: 69px;
+	}
+	.x_panel {
+		position: relative;
+		width: 100%;
+	}
+	body.nav-sm .main_container .top_nav, body.nav-sm .container.body .right_col
+		{
+		width: 100%;
+	}
+	#x-content-main {
+		padding: 0px 10px;
+	}
+	.grid-topSearchBar .col-lg-4 {
+		width: 100%;
+	}
+	.grid-topSearchBar .col-lg-8 {
+		width: 100%;
+	}
+	.configurationSubPageMenu li {
+		width: 32%;
+	}
+	#configuration-right {
+		padding: 0px 10px;
+	}
+	.server-url-config {
+		float: left !important;
+		clear: right !important;
+	}
+}
+
+@media ( max-width :640px) {
+	.ui-grid-pager-first, .ui-grid-pager-previous, .ui-grid-pager-next,
+		.ui-grid-pager-last {
+		padding: 8px 10px !important;
+	}
+	.ui-grid-pager-container {
+		width: auto;
+	}
+	#device_licence_bucket_main input {
+		max-width: 125px;
+		font-size: 10px;
+	}
+	.form-control-div {
+		width: 98%;
+		float: none;
+	}
+}
+
+@media ( max-width :550px) {
+	.ui-grid-pager-control input {
+		width: 50px;
+		float: none;
+		clear: both;
+		margin-bottom: 10px;
+		margin-left: 2px;
+	}
+	.ui-grid-pager-control .ui-grid-pager-max-pages-number {
+		clear: both;
+		float: none;
+		vertical-align: middle;
+	}
+	.ui-grid-pager-row-count-picker select {
+		margin-left: 5px;
+		width: 50px;
+		min-width: 50px !important;
+	}
+	.item .alert {
+		max-width: 100%;
+	}
+	.page-title .title_left {
+		width: 100%;
+	}
+	.page-title .title_left h3 {
+		Font-size: 20px;
+	}
+	.x_title h2 {
+		width: 100%;
+		font-size: 16px;
+	}
+	.dropdownForColumns {
+		width: 50%;
+		margin-top: 5px;
+	}
+	.dropdownForConditions {
+		width: 40%;
+		margin-top: 5px;
+	}
+	.textFieldForFilter {
+		width: 50%;
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+	.removeConitionButton {
+		width: 39%;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+	.query-builder-addCondition {
+		width: 50%;
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+	.advanceSearchModal select.input-sm {
+		max-width: 300px;
+	}
+	.query-builder-operation {
+		width: 50%;
+		margin-left: 0px;
+	}
+	.query-builder-addCondition {
+		width: 40%;
+		margin-left: 5px;
+		margin-top: 0px;
+	}
+	.query-builder-addGroup {
+		width: 50%;
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+	.query-builder-removeGroup {
+		width: 40%;
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+	#device_licence_bucket_main .timeline .block {
+		margin-left: -19px;
+		border: none;
+		float: none;
+		margin-top: 45px;
+		height: auto;
+		overflow: hidden;
+		padding: 15px 10px;
+	}
+	.submit-button-main-div {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	.btn {
+		width: 100% !important;
+		margin-left: 0px;
+	}
+	body.nav-sm ul.nav.child_menu li a {
+		font-size: 10px;
+	}
+	.configurationSubPageMenu li {
+		width: 33%;
+	}
+}
+
+@media ( max-width :500px) {
+	.globalSearchTextFieldMainDiv {
+		clear: both;
+		margin-top: 10px;
+		width: 78%;
+	}
+	.globalSearchTextFieldMainDiv #searchinput {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.global-search-column-select {
+		margin-bottom: 0 !important;
+		max-width: 320px;
+		width: 50%;
+	}
+	.configurationSubPageMenu li {
+		width: 45%;
+	}
+	#myaccount-navbar-main > li > a > img {
+    	max-width: 115px;
+	}
+}
+
+@media ( max-width :470px) {
+	.container-side-menu-exists #page-title-main1 {
+    	padding: 0px 10px !important;
+	}
+	.perform-list-actions-left {
+		padding: 0px;
+		width: 100%;
+		clear: both;
+		margin-bottom: 10px;
+	}
+	div.DTTT_container {
+		float: none !important;
+		text-align: left;
+		clear: both;
+	}
+	.ui-grid-pager-control {
+		margin-right: 0px;
+		margin-left: 0px;
+		min-width: 135px;
+		float: none;
+		clear: both;
+		margin-bottom: 10px;
+	}
+	.ui-grid-pager-row-count-picker {
+		float: none;
+		clear: both;
+	}
+	.ui-grid-pager-count-container .ui-grid-pager-count {
+		margin-right: 5px;
+		margin-left: 0px;
+		font-size: 10px;
+		padding-top: 0px;
+		position: absolute;
+		right: 0px;
+		top: 80px;
+	}
+}
+
+@media ( max-width :450px) {
+	#device-columns-list-main li {
+		width: 100%;
+		display: block;
+	}
+	#wrapper {
+		max-width: 300px;
+	}
+	.height_30 {
+		height: 5px;
+	}
+	form div.col-xs-12 {
+		float: none;
+		clear: both;
+	}
+	.x_panel {
+		width: 98%;
+	}
+	.col-md-12, .col-xs-12, .col-sm-12 {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	.nav-md #toast-container {
+		width: 50%;
+		left: -5%;
+	}
+	#toast-container>.toast {
+		min-width: 100px;
+	}
+	.device-list-page button.DTTT_button {
+		padding: 0px 0px;
+		width: 32%;
+		margin: 0px;
+		font-size: 10px;
+	}
+	#toast-container {
+		width: 100%;
+	}
+	.nav-md #toast-container {
+		width: 100%;
+	}
+	.globalSearchTextFieldMainDiv {
+		width: 99%;
+	}
+	.global-search-column-select {;
+		width: 62%;
+	}
+	.custom-pagination, .custom-pagination div {
+		padding: 0px;
+		font-size: 12px;
+	}
+	.global-search-main {
+		margin-left: -3px;
+	}
+	#device-drop-down {
+		margin-left: 0;
+		padding: 0px !important;
+		padding-top: 10px !important;
+		padding-left: 10px !important;
+		padding-bottom: 10px !important;
+		min-height: 10px !important;
+		margin-bottom: 10px !important;
+	}
+	.select-actions-dropdown {
+		width: 90%;
+	}
+	.alertFlashMessage {
+		padding-right: 0px;
+		margin-left: 18px;
+	}
+	#page-title-head {
+		font-size: 20px;
+	}
+	.configurationSubPageMenu li {
+    	width: 50%;
+    	font-size: 12px;
+    }
+}
+
+@media ( max-width :350px) {
+	
+	#myaccount-navbar-main > li > a > img {
+    	max-width: 100px;
+	}
+	.ui-grid-pager-row-count-picker select {
+		margin-bottom: 10px !important;
+	}
+	.ui-grid-pager-count-container {
+		float: left;
+	}
+	#wrapper {
+		max-width: 250px;
+	}
+	.login_content {
+		min-width: 100px;
+	}
+	.device-list-page button.DTTT_button {
+		padding: 0px;
+		width: 98%;
+		margin: 0px;
+		font-size: 10px;
+		margin-bottom: 5px;
+		float: none;
+		clear: both;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media ( max-width :320px) {
+	.perform-list-actions-left, .perform-list-actions-left .btn-group,
+		.perform-list-actions-left button {
+		width: 100%;
+		max-width: 320px;
+	}
+	@media ( min-width : 192px) and (max-width: 1270px) {
+		.hidden-small {
+			display: none !important;
+		}
+	}
+}

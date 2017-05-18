@@ -1,0 +1,112 @@
+/* THIS FILE IS CREATED TO GIVE COMMON LAYOUT CSS */
+/* ALL COMMON LAYOUT RELATED CSS CAN BE WRITTEN HERE */
+
+.m-0{
+    margin: 0px !important;
+}
+.m-t-0{
+    margin-top: 0px !important;
+}
+.m-b-0{
+    margin-bottom: 0px !important;
+}
+.m-l-0{
+    margin-left: 0px !important;
+}
+.m-r-0{
+    margin-right: 0px !important;
+}
+.m-5{
+    margin: 5px !important;
+}
+.m-t-5{
+    margin-top: 5px !important;
+}
+.m-b-5{
+    margin-bottom: 5px !important;
+}
+.m-l-5{
+    margin-left: 5px !important;
+}
+.m-r-5{
+    margin-right: 5px !important;
+}
+.m-10{
+    margin: 10px !important;
+}
+.m-t-10{
+    margin-top: 10px !important;
+}
+.m-b-10{
+    margin-bottom: 10px !important;
+}
+.m-l-10{
+    margin-left: 10px !important;
+}
+.m-r-10{
+    margin-right: 10px !important;
+}
+.p-0{
+    padding: 0px !important;
+}
+.p-t-0{
+    padding-top: 0px !important;
+}
+.p-b-0{
+    padding-bottom: 0px !important;
+}
+.p-l-0{
+    padding-left: 0px !important;
+}
+.p-r-0{
+    padding-right: 0px !important;
+}
+.p-5{
+    padding: 5px !important;
+}
+.p-t-5{
+    padding-top: 5px !important;
+}
+.p-b-5{
+    padding-bottom: 5px !important;
+}
+.p-l-5{
+    padding-left: 5px !important;
+}
+.p-r-5{
+    padding-right: 5px !important;
+}
+.p-10{
+    padding: 10px !important;
+}
+.p-t-10{
+    padding-top: 10px !important;
+}
+.p-b-10{
+    padding-bottom: 10px !important;
+}
+.p-l-10{
+    padding-left: 10px !important;
+}
+.p-r-10{
+    padding-right: 10px !important;
+}
+.wid-25{
+    width: 25% !important; 
+}
+.wid-33{
+    width: 33.33% !important; 
+}
+.ver-align-top{
+    vertical-align: top;
+}
+.m-t-20{
+    margin-top: 20px;
+}
+.config-notes {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 13px;
+}.overflow-hidden{
+    overflow: hidden !important;
+}

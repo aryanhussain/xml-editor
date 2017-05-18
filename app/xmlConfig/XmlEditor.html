@@ -1,0 +1,12 @@
+
+<div class="jsonView col-sm-10 col-sm-offset-1 form-group">
+    <json child="xmlToJsonText" default-collapsed="true" type="object" operation="isEditMode" can-edit="true"></json>
+</div>
+<hr>
+<div class="col-sm-12 text-center" style="margin:10px;">
+    
+    <button class="btn btn-success" ng-click="saveXml()" ng-disabled="!newFileModal || !xmlString">SAVE</button>
+    <button class="btn btn-primary" ng-click="resetEditor()">RESET </button>
+    <button class="btn btn-danger" ui-sref="xmlSelection" >CANCEL </button>
+</div>
+</div>

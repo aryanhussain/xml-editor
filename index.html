@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<title ng-cloak>{{pageTitle}}</title>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel='stylesheet' href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Custom styling plus plugins -->
+<link href="resources/css/animate.min.css" rel="stylesheet">
+<link href="resources/css/custom.css" rel="stylesheet">
+<link href="resources/css/config_options.css" rel="stylesheet">
+<link href="resources/css/responsive.css" rel="stylesheet">
+<link href="resources/css/xml_editor.css" rel="stylesheet">
+<link href="resources/css/layout.css" rel="stylesheet">
+</head>
+
+<body id="body" windowsize ng-class="{'mobileWindowSize':winWidth().width<=830,'nav-md':!setExpandCollapseViewStatus,'login_body': ! isLogin,'nav-sm': setExpandCollapseViewStatus && isLogin}">
+
+	
+
+	<div id="body-container" class="container body">
+		<div id="main-container" class="main_container">
+			<div ui-view="content"></div>
+			
+		</div>
+		
+	</div>
+	<!-- Adding global spinner wheel -->
+    
+	
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script type="text/javascript" src="bower_components/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+	<script type="text/javascript" src="bower_components/angular-storage/dist/angular-storage.js"></script>
+	<script type="text/javascript" src="bower_components/angular-spinners/dist/angular-spinners.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+	<script type="text/javascript" src="bower_components/ng-file-upload/ng-file-upload.min.js"></script>
+	<script type="text/javascript" src="bower_components/ng-file-upload/ng-file-upload-shim.min.js"></script>
+	<!--  Author: Kusum Include Theme Javascript -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+	<script src="bower_components/underscore/underscore.js"></script>
+	<script src="bower_components/abdmob/x2js/xml2json.js"></script>
+	<script src="bower_components/vkBeautify/vkbeautify.js"></script>
+    
+	<script src="app/app.module.js"></script>
+	<script src="app/xmlConfig/selectionController.js"></script>
+	<script src="app/xmlConfig/appConfig.js"></script>
+	<script src="app/xmlConfig/appService.js"></script>
+	<script src="app/xmlConfig/ModalUploadXmlController.js"></script>
+	<script src="app/xmlConfig/XmlEditorController.js"></script>
+	<script src="app/xmlConfig/XmlConversionDirective.js"></script>
+</body>
+</html>

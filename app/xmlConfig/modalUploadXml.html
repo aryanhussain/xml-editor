@@ -1,0 +1,48 @@
+<div id="device-columns-main" class="modal-header">
+	<h3 id="device-columns-head" class="modal-title">Upload Xml Configuration File</h3>
+	<button type="button" class="close" ng-click="cancel()" data-dismiss="modal" aria-hidden="true">&times;</button>
+</div>
+<div id="device-columns-body" class="modal-body text-center">
+	<div id="ota_files_upload_section" class="clear ota_files_upload_section">
+			<h4 id="ota_files_upload_head">Upload files to server:</h4>
+	<button id="ota_files_browse_button" class="btn btn-success" ng-disabled="false"
+	ngf-select="uploadXmlFiles($files, $invalidFiles)" ngf-accept="'.xml,.cfg'" ngf-pattern="'.xml,.cfg'">
+	Browse Xml files</button> 	
+</div>
+<div id="upload_files"  class="animated fadeInDown clear">
+		<ul id="upload_files_list_ul" class="nopadding" ng-class="{'collapse-verticle-scroll': files.length>10}">
+			<li class="nopadding" ng-repeat="f in files" id="upload_files_list_{{$index}}" >
+				<small id="upload_files_small_{{$index}}" >
+					{{f.name}}
+					{{f.$errorParam}}
+				</small>
+				<span id="upload_files_span_{{$index}}" class="progress" ng-show="f.progress >= 0">
+					<div id="upload_files_progressMain_{{$index}}"  class="progress">
+                       <div id="upload_files_progress_{{$index}}"  ng-bind="f.progress + '%'"  class="progress-bar progress-bar-warning" data-transitiongoal="{{f.progress}}" aria-valuenow="{{f.progress}}" style="width: {{f.progress}}%;"></div>
+                    </div> 					
+				</span>
+			</li>		
+		</ul>
+		<uib-accordion ng-if="existingFiles.length>0 || errFiles.length>0" close-others="oneAtATime" class="no-padding animated fadeInDown">
+		  <uib-accordion-group is-open="true"  ng-class="{'collapse-verticle-scroll': existingFiles.length>20}">
+			 <uib-accordion-heading>
+		     			{{errorMsg}}
+		     			<small class="close-collapse pull-right" ng-click="removeErrors()"><i class="fa fa-remove"></i></small>
+		   	 	 	 </uib-accordion-heading>			  
+		 	<div ng-repeat="f in errFiles" id="upload_files_errorList_{{$index}}" class="upload_files_errorList">
+			<span id="upload_files_errorName_{{$index}}"  >
+				<span ng-if="f.$error=='maxFiles' && $first"> You can select maximum <strong>{{f.$errorParam}}</strong> files at this time to upload !</span>	
+				<span ng-if="f.$error=='pattern'">
+					<i class="fa fa-paperclip"></i> {{f.name}} type of file must be  <strong>{{f.$errorParam}}</strong>
+				</span>
+				<span ng-if="f.$error!='pattern' && f.$error!='maxFiles'">{{f.name}} {{f.$error}} <strong>{{f.$errorParam}}</strong></span>
+			 </span>
+		</div>
+		<div id="error-message-files" ng-show="existingFiles" ng-repeat="fileInfo in existingFiles" >
+				<span> <i ng-show="!fileInfo.isGlobalMessage" class="fa fa-paperclip"></i> {{fileInfo.fileErrorMessage}}</span>
+		</div>
+		  </uib-accordion-group>
+		</uib-accordion>
+		<div id="ota_files_height1_30" class="height_30">&nbsp;</div>
+	</div>
+</div>

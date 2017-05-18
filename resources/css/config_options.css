@@ -1,0 +1,745 @@
+.configuration-options-main form select{
+	height: 34px !important;
+	float: left;
+	min-width: 145px;
+	width: auto;
+    color: rgb(0, 0, 0) !important;
+	min-height: 34px !important;
+	background-color: rgb(237, 237, 237) !important;
+	border: 1px solid #dddddd !important;
+	border-radius: 0px !important;
+}
+.select-config-manager-uri {
+	min-width: 100px !important;	
+}
+.configuration-options-main form .configuation-multi-select{
+	min-width: 300px !important;	
+	height: 82px !important;
+	background-color: #ffffff !important;
+}
+.configuation-numeric-field-width {
+    width: 100%;
+    max-width: 145px !important;
+}
+.wifi-profile-select {
+	height: 20%;
+	width: 50%;
+}
+.wifi-profile-hyperlink-color {
+	color: #00aeed !important;
+}
+.configuration-dropdown {
+	width: auto;
+}
+.ota-servername-form-control-div {
+	width: 34%;
+	float: left;
+}
+.ota-serverport-form-control-div {
+	width: 21%;
+	float: left;
+}
+.ota-relpath-form-control-div {
+	width: 50%;
+	float: left;
+}
+.ota-colon-label {
+	max-width: 20px;
+}
+.sip-label-form-control-div {
+	width: 34%;
+	float: left;
+}
+.sip-serverport-form-control-div {
+	width: 15%;
+	float: left;
+}
+.sip-note-label {
+	 font-size: 11px;
+	
+}
+.sip-colon-label {
+	max-width: 20px;
+}
+/*- Configuration manager -*/
+#configuration-wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	display: table;
+	border-bottom: 2px solid #dbdbdb;
+}
+
+#configuration-inner-wrapper {
+	display: table-row;
+}
+
+#configuration-left {
+	width: 250px;
+	background-color: #ededed;
+	display: table-cell;
+}
+#configuration-right {
+	width: auto;
+	display: table-cell;
+	padding: 0px 40px;
+	vertical-align: top;
+	padding-top: 20px;
+	min-height: 660px;
+	padding-bottom: 10px;
+}
+.configurationSubPageMenu {
+	margin: 0px;
+	padding: 10px 0px;
+}
+.selected-config-data-display {
+	width: 315px;
+	float: right;
+}
+.selected-config-data-display .selected-content-first-child {
+	padding: 0px;
+	text-align: right;
+	border: none !important;
+	cursor: default;
+}
+.selected-config-data-display .nav-tabs>li.active>a,
+	.selected-config-data-display .nav-tabs>li.active>a:focus,
+	.selected-config-data-display .nav-tabs>li.active>a:hover {
+	border-right: none;
+	margin-right: 0px;
+	border-radius: 0px;
+}
+.selected-config-data-display .nav-tab-open {
+	border-bottom: 1px solid #ddd !important;
+	border-right: 1px solid #ddd !important;
+}
+.selected-config-data-display .nav-tab-close>li.active>a {
+	border: none !important;
+}
+.selected-config-data-display .nav-tabs {
+	float: right;
+	clear: both;
+	border-bottom: 1px solid transparent;
+	width: 100%;
+	text-align: right;
+	text-transform: capitalize;
+}
+.selected-config-data-display .nav-tabs li {
+	display: inline-block;
+	float: none;
+}
+.selected-config-data-display .tab-content {
+	background-color: #fff;
+}
+.selected-config-data-display .nav-tabContent-close>.active {
+	display: none !important;
+}
+.selected-config-data-display .nav-tabContent-open {
+	border: 1px solid #ddd;
+	border-top: none;
+	text-align: left;
+	padding: 1px 0px 5px;
+	padding-right: 0px;
+}
+.selected-config-data-display .blue-text {
+	color: #2379cf !important;
+}
+.configurationSubPageMenu li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	padding-left: 30px;
+	border-left: 5px solid #ededed;
+}
+.configurationSubPageMenu li.active, .configurationSubPageMenu li:hover
+{
+	border-left: 5px solid #e65a2c;
+	color: #e65a2c !important;
+}
+.configurationSubPageMenu li.active a, .configurationSubPageMenu li:hover a
+	{
+	color: #e65a2c;
+}
+.configuration-submit-button-main {
+	padding-top: 30px;
+}
+.configuration-menu-heading {
+	border: none !important;
+	font-size: 16px;
+	color: #5c5c5c;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dbdbdb !important;
+	margin-bottom: 20px;
+}
+.edit-selected-config-content {
+	background-color: #dbdbdb;
+	padding: 5px 12px;
+	color: #106ecc;
+	float: right;
+	clear: both;
+	font-size: 14px;
+	margin-right: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.listOfSelectedConfigContentMain {
+	clear: both;
+	padding: 0px 10px;
+	margin: 0px;
+	margin-bottom: 10px;
+	overflow-y: auto;
+	max-height: 200px;
+}
+.listOfSelectedConfigContentMain li {
+	padding: 5px 5px;
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+	color: #595959;
+}
+.total-selected-config-data {
+	clear: both;
+	padding: 0px 10px;
+	border-bottom: 1px solid #dbdbdb;
+	font-weight: bold;
+	color: #707070;
+	text-transform: uppercase;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+.listOfSelectedConfigContentMain li:first-child {
+	padding-top: 20px;
+}
+.listOfSelectedConfigContentMain li:last-child {
+	border-bottom: none;
+}
+.selected-config-data-display {
+	padding-right: 10px;
+	position: absolute;
+	right: 40px;
+	z-index: 99;
+}
+#deviceHeartBeatInterval {
+	width: 60px;
+}
+.config-options-heading {
+	margin-bottom: 25px;
+}
+.config-manager-form-div {
+	min-height: 200px;
+}
+.seconds-input-label {
+	color:#73879C;
+	vertical-align: middle;
+	padding-left: 10px;
+	margin-top: 12px;
+	font-weight: normal;
+}
+.server-url-config {
+	border-left: none;
+	max-width: 200px;
+}
+
+.changes-not-applied ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.changes-not-applied li {
+	padding-left: 1em;
+	text-indent: -.7em;
+	color: #999999;
+}
+.changes-not-applied-tab{	
+	color: #42a4ff;
+	font-size: 8px;
+	vertical-align: middle;	
+    float: left;
+    padding-top: 5px;
+    margin-left: -15px;
+}
+.changes-not-applied  li:before, .changes-not-applied-t  li:before {
+	content: "• ";
+	color: #42a4ff;
+	font-size: 20px;
+	vertical-align: middle;
+}
+.server-address-port{
+	width: 100%;
+}
+.server-address-port .server-address{
+	width:60%;
+}
+.server-address-port .server-port{
+	width:31%;
+}
+.server-port-colon {
+    float: left;
+    padding: 2px 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.config-ldap-form-div hr{
+	margin-top: 30px;
+	margin-bottom: 30px;	
+}
+.config-deviceSecurity-form-div .form-control-div input,
+.config-ppt-form-div .form-control-div input{
+	max-width: 300px;	
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.config-deviceSecurity-form-div hr,
+.config-ptt-form-div hr{
+	margin-top: 30px;
+	margin-bottom: 30px;	
+}
+.config-deviceSecurity-form-div .adminShowPassord label{
+	margin-top: 10px;
+	margin-left: 30px;	
+}
+#configuration-wrapper .btn-default.active, #configuration-wrapper .btn-default:active,
+	#configuration-wrapper  .open>.dropdown-toggle.btn-default,
+	#configuration-wrapper.btn-default:hover {
+	color: #fff;
+	background-color: #00aeed;
+	border-color: rgba(0, 174, 237, 0.96);
+}
+.emergency-contacts-form-Main {
+	margin-top: 50px;
+}
+.add-more-contacts, .add-more-ptt-channel-info {	
+    margin: 20px 0px;
+    display: inline-block;
+    float: none !important;
+}
+#emergency-contacts-add-more , #ptt-channel-info-add-more, .dynamic-blocks-global-functionality .fa{
+	color: #00aeed !important;
+	font-size: 30px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.emergency-contacts-add-more-text,.ptt-channel-info-add-more-text {
+	color: #00aeed;
+	font-size: 20px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.settings-inform-of-checkbox{
+	width: 50%;
+}
+.settings-inform-of-checkbox ul,.settings-inform-of-checkbox ul li{
+	margin: 0px;
+	padding: 0px;
+}
+.settings-inform-of-checkbox li{
+	display: inline-block;
+	vertical-align: middle;	
+	width: 50%;
+}
+.web-event-url-heading{
+	font-size: 14px;
+}
+
+.collapse-sip-header .panel-default{
+    border: 0px;
+    color: #5A738E;
+}
+.collapse-sip-header .panel-heading{
+    border: 0px;
+    box-shadow: none;
+    border-color: transparent;
+    background-color: transparent;
+}
+.collapse-sip-header .panel-title {
+    color: #5A738E;
+    font-weight: normal;
+    font-size: 15px;
+}
+.collapse-sip-header .panel-title i {
+	padding-right: 10px;
+	font-size: 12px;
+}
+
+.level-setting-change-main .fa{
+    color: #00aeed;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-top: 0px;
+    cursor: pointer;
+    width: 20px;
+    float: left;
+}
+.enterprise-or-group-icons{
+	color: #00aeed;
+}
+.enterprise-or-group-icons div{
+	margin-left: 10px;
+}
+.level-setting-change-main{
+	float: right;
+	padding-top: 10px;
+	width: 100px;
+}
+.level-setting-change-margin-right14{
+	margin-right: 14px;
+}
+.configuration-top-settings .control-label{
+	padding-left: 0px !important;
+	text-align: left !important;
+	font-weight: normal;
+    font-size: 12px;
+}
+.configuration-top-settings  .checkbox{	
+    margin-right: 2px;
+}
+.default-setting-text{
+	font-weight: bold !important;
+	color: #00aeed !important;	
+}
+.form-text-right-align .label-align-left{
+	text-align: left !important;
+	padding-left: 0px;
+}
+.dynamic-blocks-global-functionality {
+    margin: 0px !important;
+    float: none !important;
+    max-width: 300px;
+    text-align: center;
+    clear: both;
+}
+.dynamic-blocks-global-functionality .add-remove-blocks{
+	text-align: right !important;
+}
+.dynamic-blocks-global-functionality .remove-dynamic-blocks{
+	text-align: left !important;
+	margin-left: 15px;
+}
+.remove-dynamic-blocks .emergency-contacts-add-more-text,.remove-dynamic-blocks .ptt-channel-info-add-more-text, .remove-dynamic-blocks #emergency-contacts-add-more{
+	color:#e65a2c !important;
+}
+#configManager .form-control {
+    max-width: 300px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#configManager .form-control-div {
+    width: 72%;
+}
+.nav-md #configManager rzslider {
+    max-width: 300px;
+}
+.nav-md .config-slider{
+	width: 60%;
+}
+.small-text-transform{
+	text-transform: lowercase;
+}
+#configuration-right .fa-trash{
+	display: block;
+}
+.settings-scanner-checkboxes{
+	width: 100%!important;
+	
+}
+.settings-scanner-checkboxes li{
+	/* width: 25%!important;
+	display: inline-block;
+    vertical-align: middle; */
+}
+.barcode-scanner-symbology-settings-main{
+	margin: 0px;
+	padding:0px;
+}
+.barcode-scanner-symbology-settings{
+	padding-left: 0px !important;
+}
+.barcode-scanner-symbology-settings .level-setting-change-main {
+  	float: none;
+    margin-top: -5px;
+    padding-top: 0px;
+    margin-left: 5px;
+}
+.barcode-scanner-symbology-settings .level-setting-change-main .fa {
+  	padding-top: 0px;
+}
+.barcode-scanner-symbology-settings .checkbox {
+    margin-right: 5px
+}
+.barcode-scanner-symbology-settings .level-setting-change-main img{
+    width: 17px;
+    margin-left: -2px;
+    margin-top: -3px;
+}
+
+.configuration-options-main{
+	position: relative;
+}
+.configuration-notification{
+  	position: fixed;
+    right: 0px;
+    min-width: 300px;
+    text-align: center;
+    bottom: 0px;
+}
+.configuration-notification a{
+	color: #e65a2c;
+}
+.modal-dialog{
+	margin:0 auto!important;
+}
+
+.logging-form-div .panel-heading {
+    border: 0px;
+    box-shadow: none;
+    border-color: transparent;
+    background-color: transparent;
+	color: black;
+}
+.logging-form-div .panel-default {
+    border: 0px;
+    color: #5A738E;
+}
+
+.logginLevelSelect{
+	width: 150px !important;min-height: 20px !important;height:25px !important;padding: 0px;
+}
+md-radio-button.md-default-theme:not([disabled]).md-primary .md-on, md-radio-button:not([disabled]).md-primary .md-on, md-radio-button.md-default-theme:not([disabled]) .md-primary .md-on, md-radio-button:not([disabled]) .md-primary .md-on, md-radio-group.md-default-theme:not([disabled]).md-primary .md-on, md-radio-group:not([disabled]).md-primary .md-on, md-radio-group.md-default-theme:not([disabled]) .md-primary .md-on, md-radio-group:not([disabled]) .md-primary .md-on{
+	background-color: #00aeed !important;	
+}
+.tabAddRemove{
+	POSITION: ABSOLUTE;
+    right:116px;
+    top: 0px;
+    z-index: 999999  !important;
+}
+
+md-checkbox.md-default-theme.md-checked .md-icon, md-checkbox.md-checked .md-icon {
+    background-color: #00aeed 
+}
+
+
+
+md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
+    background-color: #e95724  
+}
+.md-tab.md-active, md-tabs .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-active md-icon, md-tabs .md-tab.md-active md-icon, md-tabs.md-default-theme .md-tab.md-focused, md-tabs .md-tab.md-focused, md-tabs.md-default-theme .md-tab.md-focused md-icon, md-tabs .md-tab.md-focused md-icon {
+    color: #00aeed 
+}
+
+.phoenixEditDirectiveClass .fa {
+    color: #00aeed;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-top: 0px;
+    cursor: pointer;
+    width: 20px;
+    float: left;
+}
+
+.customTab md-tab-item{
+    
+    position: relative;
+}
+.customTab md-tab-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: .5em;
+    left: 5px;
+    right:3px;
+    z-index: -1;
+    -webkit-transform: perspective(100px) rotateX(30deg);
+    -moz-transform: perspective(100px) rotateX(30deg);
+    border:1px solid #ddd;
+    background: rgb(250,250,250);;
+} 
+.customTab md-tab-item{
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+.addTab:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: .5em;
+    left: 5px;
+    right:3px;
+    z-index: -1;
+    -webkit-transform: perspective(100px) rotateX(0deg);
+    -moz-transform: perspective(100px) rotateX(0deg);
+    border:1px solid #ddd;
+    background: rgb(250,250,250);;
+}
+
+.configuation-url-field-width {
+    width: 100%;
+   
+}
+
+.logging-levels-label{
+	color: #73879C;
+    padding-top: 5px;
+}
+
+.w-15-per{
+	width: 15%;
+}
+.w-11-per{
+	width: 11%;
+}
+.wifi_2_4_GHz_channels, 
+.wifi_5_GHz_band1_channels , 
+.wifi_5_GHz_band2_channels ,
+.wifi_5_GHz_band3_channels , 
+.wifi_5_GHz_band4_channels {
+	margin-top: 8px;
+	
+}
+
+.wifi_2_4_GHz_channels span,
+.wifi_5_GHz_band1_channels span,
+.wifi_5_GHz_band2_channels span,
+.wifi_5_GHz_band3_channels span,
+.wifi_5_GHz_band4_channels span{
+	display: inline-block;
+	width: 30%;
+}
+
+md-content.md-default-theme, 
+md-content{
+	color: #73879C;	
+}
+
+.add-another-line-tab{
+	color: #cccccc; 
+	font-size: 20px;
+}
+
+.sip-line-tab-cross-icon{
+	position: relative; 
+	top: -2px; 
+	left: 10px;
+}
+
+.ptt-channel-chkbox-parent-div span {
+    display: inline-block;
+    width: 32%;
+    float: left;
+    position: relative;
+    
+}
+
+.ptt-channel-chkbox-parent-div .phoenixEditDirectiveClass{
+	padding-top: 0px !important;
+	width: 20%;
+	position: absolute;
+	right: 0px;
+    top: 0px;
+}
+
+.ptt-channel-chkbox-parent-div .ptt-channel-subscribed-span,
+.ptt-channel-chkbox-parent-div .ptt-channel-allow-receive-span{
+    margin-left: 55px;
+}
+
+.channel-selection-container .panel-default{
+    border: 0px;
+    color: #5A738E;
+}
+.channel-selection-container .panel-heading{
+    border: 0px;
+    box-shadow: none;
+    border-color: transparent;
+    background-color: transparent;
+}
+.channel-selection-container .panel-title {
+    color: #73879C;
+    font-weight: normal;
+    font-size: 24px;
+}
+.channel-selection-container .panel-title i {
+	padding-right: 10px;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.form-control-div.soft-keys-checkbox li,
+.form-control-div.soft-keys-checkbox li .phoenixEditDirectiveClass {
+    width: 50%;   
+}
+
+.module-log-level-limits-table .phoenixEditDirectiveClass i.fa-trash {
+    float: right;
+}
+
+.module-log-level-limits-table td span {
+       line-height: 0px;
+}
+
+.telephony-notification-common-settings-main{
+	margin: 0px;
+	padding:0px;
+}
+
+.telephony-notification-common-settings{
+	position: relative;    
+}
+
+.telephony-notification-common-settings .phoenixEditDirectiveClass{
+	padding-top: 0px !important;
+	width: 25%;
+	position: absolute;
+	right: 0px;
+    top: 0px;
+}
+.telephony-notification  .phoenixEditDirectiveClass{
+	width: 30%;
+}
+
+.phoenix-level-setting-change-main{
+	float: right;
+	padding-top: 10px;
+	width: 100px;
+}
+
+.phoenix-level-setting-change-main .fa{
+    color: #00aeed;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-top: 0px;
+    cursor: pointer;
+    width: 20px;
+    float: left;
+}
+.soft-keys-li .phoenix-level-setting-change-main {
+  	float: none;
+    padding-top: 0px;
+}
+.soft-keys-li .phoenix-level-setting-change-main .fa {
+  	padding-top: 0px;
+}
+.soft-keys-li .checkbox {
+    margin-right: 5px
+}
+
+.ptt-channel-chkbox-parent-div .phoenix-level-setting-change-main {
+    padding-top: 3px;
+}
+.telephony-notification-common-settings .phoenix-level-setting-change-main {
+    padding-top: 3px;
+}
+
+.collapse-logging-header .phoenix-level-setting-change-main{
+	float: right;
+	padding-top: 10px;
+	width: 20%;
+}
+.ptt-channel-chkbox-parent-div .phoenix-level-setting-change-main{
+	float: right;
+	padding-top: 3px;
+	width: 20%;
+}
